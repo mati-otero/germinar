@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <title>Contacto GerminAR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2d22cf2182.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="principal">
+  <nav class="navegacion navbar justify-content-center">
+    <ul class="navMenu">
+        <li class="navItem">
+            <a href="index.html" class="navLink"><i class="fa-solid fa-house-chimney fa-xl"></i></a>
+        </li>
+        <li class="navItem">
+            <a href="/pages/energia.html" class="navLink">Energia</a>
+        </li>
+        <li class="navItem">
+            <a href="/pages/accion.html" class="navLink">Accion</a>
+        </li>
+        <li class="navItem">
+            <a href="/pages/impacto.html" class="navLink">Impacto</a>
+        </li>
+        <li class="navItem">
+            <a href="/pages/contacto.html" class="navLink">Contacto</a>
+        </li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+
+
+</nav>
+  <header class="header">
+    <div>
+      <h1><b> Transformandome a Sustentable </b></h1>
+    </div>
+  </header>
+  <div class="titulo">
+    <h1>Contacto</h1>
+
+    <img src="/img/imgentrar.png" alt="mundo energias limpias" width="200" height="200">
+
+  </div>
+  <div class="formulario">
+    <form id="formulario">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Aca pones tu nombre :)">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email"
+          placeholder=" Aca pones tu correo electronico asi => name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus comentarios</label>
+        <textarea class="form-control" id="comentarios" name="comentarios" rows="3"
+          placeholder="Contanos un poco de vos y de tus intereses"></textarea>
+      </div>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Intereses</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Todos
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Energia
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Accion
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Impacto
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Quiero calcular mi huella de carbono
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="botonformulario ">
+        <button type="submit" class=" btn-formulario ">Enviar</button>
+      </div>
+    </form>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
