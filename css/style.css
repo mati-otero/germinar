@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family:'Roboto', sans-serif;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/navbarestilizada.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 2rem;
+    background-color: white;
+
+
+}
+.header div{
+    background: white;
+}
+
+.navegacion {
+    display: flex;
+    background-color: #84bd18;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem {
+    margin-left: 5rem;
+    list-style: none;
+    font-weight: 400;
+
+}
+
+.navLink {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navLink:hover {
+    color: whitesmoke;
+}
+
+.hamburger {
+    display: none;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: #101010;
+    transition: all 0.5s ease-in-out;
+}
+
+.contenido {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+}
+
+.energia {
+    background-color: #beee66;
+    border-radius: 50px 100px 50px 100px;
+    padding: 20px;
+    margin-right: 2rem;
+    text-align: center;
+
+}
+
+.accion {
+    background-color: #beee66;
+    border-radius: 50px 100px 50px 100px;
+    padding: 20px;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.impacto {
+    background-color: #beee66;
+    border-radius: 50px 100px 50px 100px;
+    padding: 20px;
+    margin-right: 2rem;
+    text-align: center;
+
+}
+
+img {
+    border-radius: 50px 100px 50px 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: #84bd18;
+    margin-top: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 70%;
+    padding: 1rem;
+
+
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.formulario {
+    margin: 0 5rem;
+}
+
+.botonformulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-formulario {
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #84bd18;
+
+}
+
+.btn-formulario:hover {
+    background-color: whitesmoke;
+    border: solid #84bd18;
+}
+
+.comentario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+/*pagina impacto*/
+.cuerpoimpacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.cuerpoimpacto h1{
+    background-color: #84bd18;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    color: #475569;
+}
+.cuerpoimpacto h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cuerpoimpacto p{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: justify;
+    
+}
+.cuerpoimpacto span{
+    display: block;
+}
+.parrafo-compost p{
+    margin-bottom: 2rem;
+}
+.parrafo-compost span{
+    font-weight: 800;
+    background-color: #84bd18;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.parrafo-compost .advertencia{
+    margin: 4.5rem;
+    font-weight: 800;
+    background-color: #d7684c;
+    border-radius: 20px;
+    padding: 0.2rem;
+    text-align: start;
+}
+/*pagina energia */
+.cuerpoenergia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.cuerpoenergia h2{
+    background-color: #84bd18;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    color: #475569;
+
+}
+.cuerpoenergia img{
+    width: 40%;
+    height: 40%;
+}
+
+.parrafoenergia p{
+
+    text-align: justify;
+   
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+
+}
+.parrafoenergia {
+   
+    margin:  1rem 5rem;
+
+}
+.parrafoenergia span{
+    display: block;
+    font-weight: 800;
+    background-color: #84bd18;
+    border-radius: 20px;
+    padding: 1rem;
+
+}
+.parrafoenergia .advertencia{
+    font-weight: 800;
+    background-color: #d7684c;
+    border-radius: 20px;
+    padding: 1rem;
+
+}
+
+
+
+/* media queries*/
+/* celular*/
+
+@media only screen and (max-width: 640px) {
+    .navMenu {
+        position: fixed;
+        left: -100%;
+        top: 3rem;
+        flex-direction: column;
+        background-color: rgb(65, 170, 58);
+        width: 100%;
+        border-radius: 20px;
+        text-align: center;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+
+    }
+    .navegacion {
+        justify-content: flex-start;
+    }
+
+    .navMenu.active {
+        left: 0;
+
+    }
+
+    .navItem {
+        margin: 2.5rem 0;
+
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    .header {
+        font-size: 1rem;
+    }
+
+    .header div {
+        background: white;
+        margin-left: 5rem;
+        text-align: right;
+        
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .energia {
+        margin-bottom: 2rem;
+    }
+
+    .accion {
+        margin-bottom: 2rem;
+    }
+
+    .navLink {
+        font-weight: 800;
+        color: whitesmoke;
+
+    }
+
+    .navLink:hover {
+        color: black;
+        transition: 1s;
+        font-size: 2rem;
+        border: solid black 4px;
+        border-radius: 20px;
+        padding: 1rem;
+
+    }
+
+    .footer {
+        margin-top: 2rem;
+        font-size: 70%;
+    }
+    .cuerpoenergia {
+        margin: 1rem;
+    }
+    .cuerpoenergia img{
+        width: 40%;
+        height: 40%;
+    }
+
+}
+
+/*diseño tablet*/
+
+
+    @media screen and (min-width: 640px) and (max-width: 960px) {
+   .contenido{
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin:2rem auto;
+    
+    }
+    .impacto{
+        grid-column: span 2;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    .impacto .imagenes{
+        background-color: white;
+        border-radius: 50px 100px 50px 100px;
+        padding-top: 1rem;
+        margin: 1rem;
+
+    }
+    .cuerpoenergia {
+        margin: 1rem;
+    }
+    .cuerpoenergia img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
