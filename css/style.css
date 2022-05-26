@@ -188,15 +188,7 @@ img {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.cuerpoimpacto p{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    justify-content: center;
-    text-align: justify;
-    
-}
+
 .cuerpoimpacto span{
     display: block;
 }
