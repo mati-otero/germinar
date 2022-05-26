@@ -202,7 +202,7 @@ img {
     padding: 1rem;
 }
 .parrafo-compost .advertencia{
-    margin: 4.5rem;
+    margin-bottom: 0.5rem;
     font-weight: 800;
     background-color: #d7684c;
     border-radius: 20px;
