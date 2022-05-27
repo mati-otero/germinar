@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/navbarestilizada.png);
+    background-image: url(/img/navbarestilizada.png);
     background-repeat: no-repeat;
     background-size: auto;
     padding: 2rem;
@@ -317,7 +317,7 @@ img {
     .hamburger {
         display: block;
         cursor: pointer;
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -438,5 +438,12 @@ img {
     .cuerpoenergia img{
         width: 40%;
         height: 40%;
+    }
+/*     .navLink{
+        font-size: 1rem;
+      
+    } */
+    .navItem{
+        margin-left: 2rem;
     }
 }
