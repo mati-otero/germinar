@@ -36,7 +36,7 @@
     background-color: #84bd18;
     align-items: center;
     padding: 1rem 1.5rem;
-    justify-content: center;
+    justify-content: center !important;
 
 }
 
@@ -273,11 +273,11 @@ img {
     padding: 1rem;
 
 }
-.centrado{
+/* .centrado{
     display: flex;
     justify-content: center !important;
     align-items: center !important;
-}
+} */
 
 /* media queries*/
 /* celular*/
@@ -301,7 +301,7 @@ img {
 
     }
     .navegacion {
-        justify-content: flex-start;
+        justify-content: flex-start !important;
     }
  
     .navMenu.active {
