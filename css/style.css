@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0%;
+    padding: 0;
     font-family:'Roboto', sans-serif;
 }
 
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/navbarestilizada.png);
+    background-image: url(/img/navbarestilizada.png);
     background-repeat: no-repeat;
     background-size: auto;
     padding: 2rem;
@@ -120,13 +120,12 @@ img {
 
 .footer {
     display: flex;
-    background-color: #84bd18;
+    background: linear-gradient( whitesmoke, #84bd18, #7ec002);   
     margin-top: auto;
     text-align: center;
     justify-content: center;
     font-size: 70%;
     padding: 1rem;
-
 
 }
 
@@ -149,10 +148,11 @@ img {
 
 .btn-formulario {
     padding: 2rem 3rem;
+    
+    margin-bottom: 2rem;
     border-radius: 20px;
     border: none;
     background-color: #84bd18;
-    margin-bottom: 2rem;
 
 }
 
@@ -188,8 +188,18 @@ img {
 .cuerpoimpacto h2{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
+.cuerpoimpacto h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.textoimpacto{
+    margin-bottom: 2rem;
 
+}
 .cuerpoimpacto span{
     display: block;
 }
@@ -203,6 +213,7 @@ img {
     padding: 1rem;
 }
 .parrafo-compost .advertencia{
+
     margin-bottom: 0.5rem;
     font-weight: 800;
     background-color: #d7684c;
@@ -217,7 +228,6 @@ img {
     align-items: center;
     justify-content: center;
     text-align: justify;
-
 
 
 }
@@ -237,9 +247,7 @@ img {
 }
 
 .parrafoenergia p{
-
     text-align: justify;
-   
     margin-bottom: 1rem;
     margin-top: 1rem;
     
@@ -276,12 +284,7 @@ img {
 
 @media only screen and (max-width: 640px) {
     
-    .centrado{
-        display: flex;
-        justify-content: start !important;
-        align-items: flex-start !important;
-        padding-left: 1.5rem !important;
-    }   
+
    
     .navMenu {
         position: fixed;
@@ -314,6 +317,7 @@ img {
     .hamburger {
         display: block;
         cursor: pointer;
+        margin-left: 2rem;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -343,19 +347,23 @@ img {
 
     .contenido {
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
+        width: 100%;
+        margin: 0 auto;
 
 
     }
 
     .energia {
         margin-bottom: 2rem;
+        margin-right: 0;
     }
 
     .accion {
         margin-bottom: 2rem;
+        margin-right: 0;
+    }
+    .impacto {
+        margin-right: 0;
     }
 
     .navLink {
@@ -378,15 +386,23 @@ img {
         margin-top: 2rem;
         font-size: 70%;
     }
-    .cuerpoenergia {
-        margin: 1rem;
+    .parrafoenergia {
+   
+        margin:0.5rem;
+    
     }
+/*     .cuerpoenergia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+/*     .cuerpoenergia {
+        margin: 1rem;
+    } */
     .cuerpoenergia img{
         width: 40%;
         height: 40%;
-    }
-    .parrafoenergia {
-        margin:0.5rem;
     }
 
 }
